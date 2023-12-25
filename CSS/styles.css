@@ -1,6 +1,6 @@
 /* ----- Fuentes ----*/
 @font-face {
-    font-family: Dancing;
+    font-family: 'Dancing';
     src: url(/PaginaWebAA/Fuentes/DancingScript-Regular.ttf);
 }
 
@@ -58,7 +58,7 @@ nav ul li a{
     padding-left: 15px;
     font-weight: bold;
     letter-spacing: 1px;
-    font-family: Dancing,'Times New Roman', Times, serif;
+    font-family: 'Dancing','Times New Roman', Times, serif;
 }
 
 nav ul li a:hover{
@@ -82,7 +82,7 @@ nav ul li a:hover{
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
-    font-family: Dancing,'Times New Roman', Times, serif;
+    font-family: 'Dancing','Times New Roman', Times, serif;
     text-align: center;
     margin-top: 2%;
 }
