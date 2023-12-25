@@ -1,4 +1,4 @@
-/* ---- Carrusel ----*/
+/* ---- Carrusel ---- */
 @keyframes slide {
     0% { margin-left: 0;}
     20% { margin-left: 0;}
@@ -13,7 +13,7 @@
     100% { margin-left: -300%;}
 }
 
-/*---- Etiquetas ----*/
+/* ---- Etiquetas ---- */
 *{
     margin: 0px;
     padding: 0px;
@@ -59,6 +59,10 @@ nav ul li a:hover{
     color: #444;
 }
 
+h2{
+    text-align: center;
+}
+
 
 /* ---- Clases ---- */
 .ancho{
@@ -85,7 +89,11 @@ nav ul li a:hover{
     margin-top: 2%;
 }
 
-/* CARRUSEL */
+.listamasajes{
+    list-style-type: disc;
+}
+
+/* ---- CARRUSEL ---- */
 .carrusel {
     width: 700px;
     height: auto;
@@ -109,8 +117,16 @@ nav ul li a:hover{
     box-sizing: border-box;
 }
 
+.serv{
+    width: 33%;
+}
 
-/*  ---- id ----*/
+.copy{
+    text-align: center;
+}
+
+
+/* ---- ID ---- */
 #logo{
     width: 20%;
     margin-left: 5%;
@@ -118,8 +134,19 @@ nav ul li a:hover{
 
 }
 
+#servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
-/* MEDIA QUERIES*/
+
+/* ---- MEDIA QUERIES ---- */
 @media(max-width: 991px){
 
     .carrusel {
