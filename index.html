@@ -28,6 +28,11 @@
             </ul>
         </nav>
     </header>
+
+    <aside id="ofertas">
+        <img class="bannermasaje" src="img/banner/regala.png" alt="Regala_masajes">
+    </aside>
+
     <h1 class="slogan"> Porque lo natural está en tus manos</h1>
     <section class="carrusel">
         <ul>
@@ -94,7 +99,6 @@
                 los cambios en el campo de la salud,
                 y nos esforzamos por cultivar un ambiente donde usted se sienta de nuestra gran familia.</p>
         </article>
-
     </section>
 
     <h1 class="slogan"> Servicios ofrecidos </h1>
@@ -149,7 +153,6 @@
                     <button onclick="reservar('Masaje de Tejido Profundo')">Reservar</button>
                 </li>
             </ul>
-
         </article>
         <article class="serv">
             <h2> Nuestros productos </h2>
@@ -190,7 +193,6 @@
                     <button onclick="comprar('Valeriana en Cápsulas')">Comprar</button>
                 </li>
             </ul>
-
         </article>
         <article class="serv">
             <h2> Excursiones </h2>
@@ -235,63 +237,60 @@
         </article>
     </section>
 
-    <section id="ofertas">
-
-    </section>
-
     <section id="contacto">
         <h2>Contáctanos</h2>
         <form action="procesarPeticion.jsp" method="get"></form>
-        <input type="text" name="edad" placeholder="Escribe tu edad" />
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" autofocus />
         <br />
         <br />
-        Nombre: <input type="text" name="nombre" autofocus />
+        <label for="apellidos">Apellidos: </label>
+        <input type="text" name="apellidos" required />
         <br />
         <br />
-        Apellidos: <input type="text" name="apellidos" required />
+        <label for="Email">Email: </label>
+        <input type="email" name="email" required />
         <br />
         <br />
-        Email: <input type="email" name="email" required />
+        <label for="Edad">Edad: </label>
+        <input type="number" min="15" max="100" step="1" name="edadNumber" placeholder="Edad" required />
         <br />
         <br />
-        Edad: <input type="number" min="18" max="120" step="5" name="edadNumber" placeholder="Edad" required />
-        <br />
-        <br />
-        Teléfono: <input type="tel" name="telefono" placeholder="Escribe su número de telefono" />
+        <label for="telefono">Teléfono: </label>
+        <input type="tel" name="telefono" placeholder="Escribe su número de telefono" />
         <br />
         <label for="observaciones">Observaciones: </label>
         <br />
         <textarea style="resize: none;" rows="5" cols="80" name="observaciones"></textarea>
         <br />
         <br />
-        <label for="terminos">¿Acepta los terminos de uso? </label>
+        <label for="terminos">¿Acepta los terminos de uso? </br>He leido y acepto los terminos de uso</label>
         <br />
-        He leido y acepto los terminos de uso <input type="checkbox" name="terminos" value="Y" />
-        <br />
-
+        <input type="checkbox" name="terminos" value="Y" />
         <br />
         <br />
-        <input type="submit" value="Enviar formulario" />
-        <input type="reset" value="Limpiar formulario" />
-
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Restablecer" />
         </form>
-
     </section>
 
-    </section>
     <footer>
+        <div>
+            <h3>Información de Contacto:</h3>
+            <p>Dirección: c/ de la Alegría nº 8, Madrid</p>
+            <p>Correo Electrónico: <a href="mailto:info@tuempresa.com">info@madreselva.com</a></p>
+            <p>Teléfono: +34 123 456 789</p>
+        </div>
+        <div>
+            <h3>Síguenos en Redes Sociales:</h3>
+            <ul class="redes-sociales">
+                <li><a href="index.html"><img class="iconoimg" src="img/ICONOS/instagram.png" alt="Instagram"></a></li>
+                <li><a href="index.html"><img class="iconoimg" src="img/ICONOS/youtube.png" alt="Youtube"></a></li>
+                <li><a href="index.html"><img class="iconoimg" src="img/ICONOS/whatsapp.png" alt="Whatsapp"></a></li>
+            </ul>
+        </div>
         <p class="copy">&copy; 2023 Madreselva. Todos los derechos reservados.</p>
-        <h3>Síguenos en Redes Sociales:</h3>
-        <ul class="redes-sociales">
-            <li><a href="index.html"><img class="iconoimg" src="ICONOS/instagram.png" alt="Instagram"></a></li>
-            <li><a href="index.html"><img class="iconoimg" src="ICONOS/youtube.png" alt="Youtube"></a></li>
-            <li><a href="index.html"><img class="iconoimg" src="ICONOS/whatsapp.png" alt="Whatsapp"></a></li>
-        </ul>
-
-        <h3>Información de Contacto:</h3>
-        <p>Dirección: c/ de la Alegría nº 8, Madrid</p>
-        <p>Correo Electrónico: <a href="mailto:info@tuempresa.com">info@madreselva.com</a></p>
-        <p>Teléfono: +34 123 456 789</p>
     </footer>
 </body>
 
