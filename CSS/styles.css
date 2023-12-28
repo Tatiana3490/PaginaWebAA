@@ -120,24 +120,45 @@ h2{
     width: 33%;
 }
 
-.copy{
-    text-align: center;
-}
-
 .iconoimg{
     width: 2%;
 }
 
+.redes-sociales{
+    
+}
 .footer{
     background-color: darkmagenta;
-    border: 1px solid gray;
-
-    display: flex;
-    flex-direction: row;
+    border: 3px solid blue;
+    border-radius: 8px;
+    display: grid;
+   
 }
 
 .contenedor_info{
-    font-size: 30px;
+    font-size: 15px;
+    text-align: left;
+    grid-column: 1/1;
+    
+}
+
+.contenedor_rrss{
+    font-size: 15px;
+    text-align: center;
+    grid-column: 2/3;
+}
+
+.contenedor_politicas{
+    font-size: 15px;
+    text-align: center;
+    grid-column: 3/4;
+    
+}
+
+.copy{
+    font-size: 15px;
+    grid-column: 2/3;
+    grid-row:2/4 ;
     text-align: center;
 }
 
