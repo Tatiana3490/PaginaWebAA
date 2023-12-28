@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #ffd9ae;
 }
 
 header{
@@ -62,7 +62,6 @@ nav ul li a:hover{
 h2{
     text-align: center;
 }
-
 
 /* ---- Clases ---- */
 .ancho{
@@ -127,6 +126,19 @@ h2{
 
 .iconoimg{
     width: 2%;
+}
+
+.footer{
+    background-color: darkmagenta;
+    border: 1px solid gray;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor_info{
+    font-size: 30px;
+    text-align: center;
 }
 
 
