@@ -63,6 +63,7 @@ h2{
     text-align: center;
 }
 
+
 /* ---- Clases ---- */
 .ancho{
     width: 80%;
@@ -119,49 +120,73 @@ h2{
 .serv{
     width: 33%;
 }
-
+/*---fin carrusel---*/
 .iconoimg{
-    width: 2%;
+    width: 10%;
+}
+
+.iconoimg li {
+    display: inline-block;
+    
 }
 
 .redes-sociales{
-    
+    width: 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.redes-sociales li img {
+    width: 50px;
+    display: flex;
+    padding: 30px;
 }
 .footer{
+    width: 100%;
     background-color: darkmagenta;
     border: 3px solid blue;
     border-radius: 8px;
+      
+}
+
+.footer1{
+    width: 100%;
+    margin: auto;
     display: grid;
-   
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px;
+    padding: 15px 0px;
+
 }
 
-.contenedor_info{
-    font-size: 15px;
-    text-align: left;
-    grid-column: 1/1;
+.footer2{
+
     
 }
 
-.contenedor_rrss{
-    font-size: 15px;
-    text-align: center;
-    grid-column: 2/3;
+.contenedor1{
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
-.contenedor_politicas{
-    font-size: 15px;
-    text-align: center;
-    grid-column: 3/4;
-    
+.contenedor1 h2 {
+    display: flex;
+    align-content: center;
 }
 
-.copy{
-    font-size: 15px;
-    grid-column: 2/3;
-    grid-row:2/4 ;
-    text-align: center;
+.footer .footer1 h2 {
+    margin-bottom: 20px;
 }
 
+.footer .footer1 .contenedor1 p {
+    margin-bottom: 10px;
+
+}
 
 /* ---- ID ---- */
 #logo{
