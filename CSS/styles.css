@@ -147,8 +147,6 @@ nav ul li a:hover{
 .footer{
     width: 100%;
     background-color: darkmagenta;
-    border: 3px solid blue;
-    border-radius: 8px;
       
 }
 
@@ -171,20 +169,25 @@ nav ul li a:hover{
     width: 100%;
     height: 100%;
     display: flex;
+    
 }
 
-.contenedor1 h2 {
+.footer.footer1.contenedor1 h2 {
     display: flex;
     align-content: center;
 }
 
 .footer .footer1 h2 {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .footer .footer1 .contenedor1 p {
     margin-bottom: 10px;
-
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 /* ---- ID ---- */
