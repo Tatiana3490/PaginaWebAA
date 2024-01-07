@@ -59,11 +59,6 @@ nav ul li a:hover{
     color: #444;
 }
 
-h2{
-    text-align: center;
-}
-
-
 /* ---- Clases ---- */
 .ancho{
     width: 80%;
@@ -116,11 +111,15 @@ h2{
     width: 50%;
     box-sizing: border-box;
 }
-
+/*---fin carrusel---*/
 .serv{
     width: 33%;
 }
-/*---fin carrusel---*/
+
+.serv h2 {
+    text-align: center;
+}
+
 .iconoimg{
     width: 10%;
 }
@@ -206,7 +205,9 @@ h2{
     margin-left: 10%;
     margin-right: 10%;
 }
-
+ #contacto h2{
+text-align: center;
+ }
 
 /* ---- MEDIA QUERIES ---- */
 @media(max-width: 991px){
