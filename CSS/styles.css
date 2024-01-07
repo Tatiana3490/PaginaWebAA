@@ -59,6 +59,11 @@ nav ul li a:hover{
     color: #444;
 }
 
+section article{
+    padding: 10px;
+    font-family:'Dancing Script','Times New Roman', Times, serif;
+    font-size: 20px;
+}
 /* ---- Clases ---- */
 .ancho{
     width: 80%;
@@ -82,6 +87,10 @@ nav ul li a:hover{
     font-family: 'Dancing Script','Times New Roman', Times, serif;
     text-align: center;
     margin-top: 2%;
+}
+
+.sobrenosotros{
+padding: 20px;
 }
 
 /* ---- CARRUSEL ---- */
