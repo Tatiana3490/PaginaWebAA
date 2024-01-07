@@ -17,7 +17,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    color:black;
+    
 }
 
 body {
@@ -84,10 +84,6 @@ nav ul li a:hover{
     margin-top: 2%;
 }
 
-.listamasajes{
-    list-style-type: disc;
-}
-
 /* ---- CARRUSEL ---- */
 .carrusel {
     width: 700px;
@@ -120,6 +116,18 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.listamasajes{
+    list-style: none;
+}
+
+.listaproductos{
+    list-style: none;
+}
+
+.listaexcursiones {
+    list-style: none;
+}
+
 .iconoimg{
     width: 10%;
 }
@@ -147,6 +155,7 @@ nav ul li a:hover{
 .footer{
     width: 100%;
     background-color: darkmagenta;
+    color: white;
       
 }
 
@@ -194,6 +203,10 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 
+.contenedor1 p a {
+    color: white;
+}
+
 /* ---- ID ---- */
 #logo{
     width: 20%;
@@ -212,6 +225,11 @@ nav ul li a:hover{
     margin-left: 10%;
     margin-right: 10%;
 }
+#contacto{
+    display: grid;
+    justify-content: center;
+}
+
  #contacto h2{
 text-align: center;
  }
